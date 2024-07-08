@@ -1,3 +1,10 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using Console_Bank;
 
+class Program
+{
+   static void Main()
+    {
+        new ConsoleBank().launchBank();
+
+    }
+}
